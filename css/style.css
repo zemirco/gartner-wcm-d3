@@ -1,0 +1,79 @@
+#canvas {
+	width: 600px;
+	height: 400px;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: grey;
+    shape-rendering: crispEdges;
+	stroke-width: 2px
+}
+
+.axis.wcm-label {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.quadrant_border {
+	stroke: grey;
+	fill: none;
+	shape-rendering: crispEdges;
+	stroke-width: 2px
+}
+
+.circle {
+	fill: orange;
+}
+
+.circle-hover {
+	fill: blue;
+	cursor: pointer;
+}
+
+.circle-selected {
+	fill: darkblue;
+}
+
+.wcm-label {
+	font-size: 12px;
+	font-weight: bold
+}
+
+.wcm-label-hover {
+	fill: blue;
+	cursor: pointer;
+}
+
+.wcm-label-selected {
+	fill: darkblue;
+}
+
+.thumbnails {
+	margin-top: 10px;
+}
+
+.well {
+	padding: 0px;
+}
+
+.sidebar-inner {
+	padding: 20px;
+}
+
+img {
+	vertical-align: baseline;
+}
+
+.divider {
+	stroke: grey;
+	fill: none;
+	shape-rendering: crispEdges;
+	stroke-width: 2px
+}
+
+.quad-label {
+	font-size: 20px;
+	font-weight: bold;
+	fill: lightGrey;
+}
